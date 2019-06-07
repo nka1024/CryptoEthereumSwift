@@ -484,7 +484,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
-					"$(SRCROOT)/Libraries/secp256k1/include",
+					"$(SRCROOT)/Libraries/secp256k1b/include",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -496,7 +496,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/lib",
-					"$(SRCROOT)/Libraries/secp256k1/lib",
+					"$(SRCROOT)/Libraries/secp256k1b/lib",
 				);
 				MODULEMAP_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/CryptoEthereumSwift.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuzushioh.CryptoEthereumSwift;
@@ -527,7 +527,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/include",
-					"$(SRCROOT)/Libraries/secp256k1/include",
+					"$(SRCROOT)/Libraries/secp256k1b/include",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -539,7 +539,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/Libraries/openssl/lib",
-					"$(SRCROOT)/Libraries/secp256k1/lib",
+					"$(SRCROOT)/Libraries/secp256k1b/lib",
 				);
 				MODULEMAP_FILE = "$(SRCROOT)/CryptoEthereumSwift/SupportingFiles/CryptoEthereumSwift.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuzushioh.CryptoEthereumSwift;
