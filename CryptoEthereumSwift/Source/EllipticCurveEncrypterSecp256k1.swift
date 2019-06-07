@@ -7,7 +7,7 @@ public final class EllipticCurveEncrypterSecp256k1 {
     private let context: OpaquePointer
     
     public init() {
-        context = secp256k1_context_create(UInt32(SECP256K1_CONTEXT_SIGN | SECP256K1_CONTEXT_VERIFY))!
+        context =  secp256k1_context_create(UInt32(SECP256K1_CONTEXT_SIGN | SECP256K1_CONTEXT_VERIFY))!
     }
     
     deinit {
