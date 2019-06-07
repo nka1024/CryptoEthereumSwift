@@ -60,7 +60,7 @@ public final class Crypto {
     ///   - compressed: whether public key should be compressed
     /// - Returns: 65-byte key if not compressed, otherwise 33-byte public key.
     public static func generatePublicKey(data: Data, compressed: Bool) -> Data {
-        return Secp256k1.generatePublicKey(withPrivateKey: data, compression: compressed)
+        return Secp256k1b.generatePublicKey(withPrivateKey: data, compression: compressed)
     }
     
     /// Signs hash with private key

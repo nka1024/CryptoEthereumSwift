@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSData *)PBKDF2:(NSData *)password salt:(NSData *)salt iterations:(NSInteger)iterations keyLength:(NSInteger)keyLength;
 @end
 
-@interface Secp256k1 : NSObject
+@interface Secp256k1b : NSObject
 + (NSData *)generatePublicKeyWithPrivateKey:(NSData *)privateKeyData compression:(BOOL)isCompression;
 @end
 

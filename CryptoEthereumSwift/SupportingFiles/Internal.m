@@ -35,7 +35,7 @@
 
 @end
 
-@implementation Secp256k1
+@implementation Secp256k1b
 
 + (NSData *)generatePublicKeyWithPrivateKey:(NSData *)privateKeyData compression:(BOOL)isCompression {
     BN_CTX *ctx = BN_CTX_new();
