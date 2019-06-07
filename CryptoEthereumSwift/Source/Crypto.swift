@@ -1,5 +1,5 @@
 import CryptoEthereumSwift.Private
-import secp256k1
+import secp256k1b
 import CryptoSwift
 
 public enum CryptoEthereumSwiftError: Error {
