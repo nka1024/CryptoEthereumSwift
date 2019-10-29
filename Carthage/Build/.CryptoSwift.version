@@ -1,9 +1,10 @@
 {
-  "commitish" : "0.11.0",
+  "commitish" : "1.0.0",
   "iOS" : [
     {
       "name" : "CryptoSwift",
-      "hash" : "8da29eace379b2b39e3c12ca042c9e182ad59a3d0709881131136d28e0aee166"
+      "hash" : "f9025242a032336694f8308027e7046d3d89bea6dd67247669f5647efbd69c23",
+      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
 }
